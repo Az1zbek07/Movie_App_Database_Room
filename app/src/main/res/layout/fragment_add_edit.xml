@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AddEditFragment">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/shape_edit_text"
+        android:hint="Movie name"
+        android:paddingStart="20dp"
+        android:id="@+id/editName" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/shape_edit_text"
+        android:hint="Movie authors"
+        android:paddingStart="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editAuthor" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/shape_edit_text"
+        android:hint="About movie"
+        android:layout_marginTop="20dp"
+        android:gravity="top"
+        android:paddingTop="10dp"
+        android:paddingStart="20dp"
+        android:id="@+id/editAbout" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/shape_edit_text"
+        android:hint="Movie date"
+        android:layout_marginTop="20dp"
+        android:paddingStart="20dp"
+        android:id="@+id/editDate" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/blue"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:id="@+id/btnSave" />
+
+</LinearLayout>
